@@ -1,0 +1,81 @@
+/* styles.css */
+body {
+    background-image: url(https://cdn.wallpapersafari.com/9/31/qDTHl5.jpg);
+    background-size: contain;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-image: url(https://cdn.wallpapersafari.com/9/31/qDTHl5.jpg);
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+#hero {
+    background-image: url('hero.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.btn {
+    display: inline-block;
+    background-color: gray;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+#menu{
+    color: #fff;
+}
+.menu-item {
+    margin: 2rem 0;
+}
+
+#about,
+#contact {
+    color: #fff;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.h2{
+    font-size: 50px;
+    color: #fff;
+}
+
+.p{
+    color: #fff;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input,
+textarea {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#footer{
+    color: #fff;
+}
